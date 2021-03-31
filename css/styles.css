@@ -1,0 +1,174 @@
+:root {
+  --purple: rgb(93, 95, 241);
+  --grey: rgba(204, 204, 204, 0.247);
+}
+
+body {
+  background: var(--grey);
+  font-family: "Inter", sans-serif !important;
+}
+
+h5 {
+  color: #fff;
+}
+
+.profileCard {
+  height: 850px;
+  width: 300px;
+  background: white;
+  margin: auto;
+}
+
+.profileCard__heading {
+  background: var(--purple);
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.profileCard__header {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.profileCard__title {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.profileCard__imageCard {
+  background-color: var(--purple);
+  height: 200px;
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.profileCard__userInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileCard__img {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  /* margin-top: 10px; */
+  border-radius: 50px;
+  z-index: 40;
+  position: relative;
+}
+
+.profileCard__imgIcon {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  margin: auto;
+  /* margin-top: 10px; */
+  border-radius: 50px;
+  z-index: 40;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.profileCard__gitLink {
+  background-color: rgba(0, 0, 0, 0.171);
+  border: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  color: white;
+  outline: none;
+}
+
+.profileCard__activities {
+  background-color: var(--grey);
+  height: 200px;
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.profileCard__activitiesImg {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  /* margin: auto; */
+  /* margin-top: 10px; */
+  border-radius: 50px;
+  /* z-index: 40; */
+  /* position: relative; */
+  margin-top: 15px;
+}
+
+.profileCard__activitiesSection {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-left: 10px;
+}
+
+.profileCard__activitiesGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 1px;
+  margin-left: 10px;
+}
+
+.profileCard__activitiesGroup > h5 {
+  color: black;
+  font-weight: bold;
+}
+
+.profileCard__activitiesGroup > span {
+  font-size: 10px;
+}
+
+.profileCard__activitiesFlexImgs {
+  display: flex;
+  padding-left: 10px;
+}
+
+.profileCard__activitiesSection2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgRight {
+  margin-left: -10px;
+  border: 1px solid black;
+}
+
+.end {
+  line-height: 20px;
+}
+
+.end > span {
+  margin-top: -15px;
+}
+
+.endCard {
+  height: 160px;
+}
+
+center {
+  margin-top: 20px;
+  font: size 5px;
+}
+
+center>span{
+    color: var(--purple);
+}
