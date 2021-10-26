@@ -114,19 +114,12 @@ h5 {
   background-color: white;
   height: 40px;
   width: 40px;
-  /* margin: auto; */
-  /* margin-top: 10px; */
   border-radius: 50px;
-  /* z-index: 40; */
-  /* position: relative; */
   margin-top: 15px;
 }
 
 .profileCard__activitiesSection {
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
   padding-left: 20px;
 }
 
